@@ -1,0 +1,28 @@
+.a {
+    text-align: center;
+    color: #163855;
+
+}
+
+.all {
+    height: 100px;
+    width: 100px;
+    background-color: #a63333;
+    border-radius: 10px;
+    /*margin:2px auto;*/
+    text-align: center;
+    border : 2px solid black;
+}
+
+.b{
+    background-color: #a63333;
+    border : 2px solid black;
+    border-radius: 10px;
+    /*display: flex;                          !*it fix the order in the same line with any use of other *!*/
+    /*flex-direction: row-reverse;            !*It will be reverse the row contect*!*/
+    /*!*flex-direction: column-reverse;*!         It will be reverse the column contect*/
+    /*justify-content:space-around;*/
+    display : grid;
+    grid-template-rows : 60px 60px 60px;
+    grid-template-columns : 60px 60px 60px;
+}
