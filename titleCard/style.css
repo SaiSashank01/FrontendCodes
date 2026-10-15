@@ -1,0 +1,16 @@
+h1 {
+    text-align:center;
+    text-decoration: underline #7700a6;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p {
+    line-height:16px;
+    line-width:400px;
+    text-align: center;
+    margin:50px;
+    border:5px solid #7700a6;
+    border-radius: 50px;
+    padding: 50px;
+}

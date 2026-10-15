@@ -1,0 +1,23 @@
+* {
+    background-color: burlywood;
+}
+div{
+    text-align: center;
+    line-height: 190px;
+    color: #8c5a70;
+    height:200px;
+    width:200px;
+    background-color: rgb(14 96 85 / 0.32);
+    margin: 20px auto;
+    border:10px;
+    box-shadow: 2px 2px 20px #888888;
+    border-radius:50%;
+}
+
+
+.b:hover{
+    box-shadow: 4px 4px 40px #9f2f2f;
+    color: rgb(14 96 85 / 0.32);
+    cursor: pointer;
+    transition: 1s;
+}
